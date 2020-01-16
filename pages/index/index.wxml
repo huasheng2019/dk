@@ -1,0 +1,69 @@
+<!--index.wxml-->
+<view class="index">
+    <swiper class="swiper" current="{{index}}" indicator-dots="{{true}}" indicator-active-color="#03767f" bindchange="pageChange">
+        <swiper-item>
+            <view class="container-one">
+                <image src="/images/banner.png" class="banner"></image>
+                <view class="list">
+                    <view class="item">
+                        <image src="/images/icons/icon1.png" class="icon"></image>
+                        <view class="des">
+                            <view class="title">老师一键布置打卡任务</view>
+                            <view class="content">模板丰富，全覆盖教育场景，快速布置</view>
+                        </view>
+                    </view>
+                    <view class="item">
+                        <image src="/images/icons/icon2.png" class="icon"></image>
+                        <view class="des">
+                            <view class="title">学生家长轻松打卡</view>
+                            <view class="content">图文、音频、视频多方式打卡</view>
+                        </view>
+                    </view>
+                    <view class="item">
+                        <image src="/images/icons/icon3.png" class="icon"></image>
+                        <view class="des">
+                            <view class="title">排行统计</view>
+                            <view class="content">按周、月、学期统计坚持打卡天数及排名</view>
+                        </view>
+                    </view>
+                    <view class="item">
+                        <image src="/images/icons/icon4.png" class="icon"></image>
+                        <view class="des">
+                            <view class="title">支持计量</view>
+                            <view class="content">可按“篇、分钟上、个数、米、组”计量打卡</view>
+                        </view>
+                    </view>
+                    <view class="item">
+                        <image src="/images/icons/icon5.png" class="icon"></image>
+                        <view class="des">
+                            <view class="title">打卡日历</view>
+                            <view class="content">支持多维度查看班级、学生打卡情况</view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </swiper-item>
+        <swiper-item>
+            <view class="container-two">
+                <view class="title">教育公益  免费使用</view>
+                <image src="/images/chengji.png" class="achievement-img"></image>
+                <view class="bottom-tips-wrap">
+                    <image mode="aspectFit" src="../../images/tips-bg.png" class="tips-bg"></image>
+                    <view class="tips-wrap">
+                        <view class="tips">坚持打卡</view>
+                        <view class="tips">帮助学生养成好习惯</view>
+                    </view>
+                </view>
+            </view>
+        </swiper-item>
+        <swiper-item>
+            <view class="container-three">
+                <image src="/images/nodata.png" class="nodata-img"></image>
+                <view class="content">此小程序己合并到功能更加强大的班小二，您可以直接跳转至班小二进行操作。         </view>
+                <view class="wrap-btn">
+                    <view class="btn" bindtap="goBxe">跳转到班小二</view>
+                </view>
+            </view>
+        </swiper-item>
+    </swiper>
+</view>
